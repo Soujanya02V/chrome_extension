@@ -16,14 +16,13 @@
 - ⚙️ Options page to save your Gemini API key
 
 || 📁 File Structure
->> background.js --> Handles extension installation behavior
- >>content.js --> Extracts article text from the page
->> icon.png --> Extension icon
->> manifest.json -->  Extension metadata and permissions
->> options.html --> Options page to save Gemini API key
->> options.js --> Logic for saving and retrieving API key
->> popup.html --> UI for summarizing content
->> popup.js -->  Handles UI actions and API communication
-
+├── background.js # Handles extension installation behavior
+├── content.js # Extracts article text from the page
+├── icon.png # Extension icon
+├── manifest.json # Extension metadata and permissions
+├── options.html # Options page to save Gemini API key
+├── options.js # Logic for saving and retrieving API key
+├── popup.html # UI for summarizing content
+├── popup.js # Handles UI actions and API communication
 
 
